@@ -14,6 +14,7 @@ const AppFooter = () => {
             <a
               href="https://github.com/subaru-git/witty-remarks-pool"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 className="h-6 w-6 fill-current text-gray-100"

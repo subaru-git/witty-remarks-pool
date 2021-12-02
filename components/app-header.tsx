@@ -18,6 +18,7 @@ const AppHeader = () => {
             className="flex-initial flex-grow-0"
             href="https://github.com/subaru-git/witty-remarks-pool"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               loading="lazy"

@@ -1,5 +1,6 @@
 import React from "react";
 import Markdown from "react-markdown";
+import Image from "next/image";
 
 export interface WittyRemarkContentProps {
   title: string;
@@ -23,6 +24,7 @@ const WittyRemarkContent: React.FC<WittyRemarkContentProps> = ({
               className="text-md text-pink-900 text-opacity-70 hover:text-opacity-100 pt-1 pb-2"
               href={url}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <p className="overflow-ellipsis">{title}</p>
             </a>
@@ -35,7 +37,7 @@ const WittyRemarkContent: React.FC<WittyRemarkContentProps> = ({
         </div>
         <div className="flex-none p-2">
           <div className="flex items-center h-full">
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noopener noreferrer">
               <img className="h-32" src={image} alt="image" />
             </a>
           </div>

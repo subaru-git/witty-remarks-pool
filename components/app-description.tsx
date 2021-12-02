@@ -8,6 +8,7 @@ const AppDescription = () => {
           <img
             className="top-0 object-cover h-full w-full p-8"
             src="/images/description.jpg"
+            alt="description"
           />
         </div>
         <div className="min-w-max text-xl text-gray-500 p-8">
