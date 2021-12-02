@@ -14,7 +14,11 @@ const AppHeader = () => {
               Pool
             </p>
           </div>
-          <a className="flex-initial flex-grow-0" href="https://github.com/you">
+          <a
+            className="flex-initial flex-grow-0"
+            href="https://github.com/subaru-git/witty-remarks-pool"
+            target="_blank"
+          >
             <img
               loading="lazy"
               width="149"
