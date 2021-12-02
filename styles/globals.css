@@ -1,16 +1,23 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fdfdfd;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.markdown h1 {
+  @apply text-4xl;
 }
 
-* {
-  box-sizing: border-box;
+.markdown h2 {
+  @apply text-3xl;
+}
+
+.markdown ol {
+  @apply list-decimal pl-10;
+}
+
+.markdown ul {
+  @apply list-disc pl-10;
 }
