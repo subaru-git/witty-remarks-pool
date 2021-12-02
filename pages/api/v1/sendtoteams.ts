@@ -8,7 +8,6 @@ type Data = {
 };
 
 const Handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
-  console.log(req.query.url);
   const json = fs.readFileSync(path.join(process.cwd(), "data/data.json"));
   const data = JSON.parse(json.toString()).data;
   const content = data[Math.floor(Math.random() * data.length)];
