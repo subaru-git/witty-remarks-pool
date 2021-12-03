@@ -3,6 +3,7 @@ import {
   WittyRemarkList,
   WittyRemarkListProps,
 } from "../components/witty-remark-list";
+import { PageHead } from "../components/page-head";
 import { AppHeader } from "../components/app-header";
 import { AppDescription } from "../components/app-description";
 import { AppFooter } from "../components/app-footer";
@@ -13,6 +14,7 @@ import fs from "fs";
 const Home: NextPage<WittyRemarkListProps> = ({ data }) => {
   return (
     <div>
+      <PageHead />
       <AppHeader />
       <AppDescription />
       <WittyRemarkList data={data} />
