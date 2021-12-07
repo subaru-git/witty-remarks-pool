@@ -16,7 +16,7 @@ const WittyRemarkContent: React.FC<WittyRemarkContentProps> = ({
   image,
 }) => {
   return (
-    <div className="box-content border-1 rounded-lg bg-yellow-100 bg-opacity-50 p-1 shadow-lg my-px">
+    <div className="box-content border-1 rounded-lg bg-gray-50 bg-opacity-50 p-2 shadow-lg my-px">
       <div className="flex flex-row max-h-full p-1">
         <div className="flex-1">
           <div className="flex flex-col justify-start">

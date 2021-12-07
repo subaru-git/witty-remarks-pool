@@ -11,7 +11,7 @@ export interface WittyRemarkListProps {
 const WittyRemarkList: React.FC<WittyRemarkListProps> = ({ data }) => {
   return (
     <>
-      <div className="max-w-4xl h-screen overflow-auto mx-auto border">
+      <div className="max-w-5xl h-screen overflow-auto mx-auto border">
         {data.map((d, i) => (
           <WittyRemarkContent
             title={d.title}
